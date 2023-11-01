@@ -1,0 +1,29 @@
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\MetroFramework.dll
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\MetroFramework.Design.dll
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.csproj.AssemblyReference.cache
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Brand.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.BrandModule.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Category.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.CategoryModule.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Form1.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.ProductModule.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Product.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Properties.Resources.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.csproj.GenerateResource.cache
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.csproj.CoreCompileInputs.cache
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.exe
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.pdb
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\Point Of Sales.exe.config
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\Point Of Sales.exe
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\bin\Debug\Point Of Sales.pdb
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point Of Sales.csproj.CopyComplete
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Supplier.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.SupplierModule.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.UserAccount.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Casher.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.LookupProduct.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.ProductStockIn.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.StockEntry.resources
+C:\Users\ADV\source\repos\Point Of Sales\Point Of Sales\obj\Debug\Point_Of_Sales.Qty.resources

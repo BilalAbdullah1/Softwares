@@ -41,7 +41,7 @@ namespace Point_Of_Sales
 
         private void qtytxtbox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((e.KeyChar == 1) && (qtytxtbox.Text != string.Empty))
+            if ((e.KeyChar == 27) && (qtytxtbox.Text != string.Empty))
             {
                     cn.Open();
                     cm = new SqlCommand("Insert into tbcart (transno,pcode, price, qty,sdate, cashier) values (@transno,@pcode,@price,@qty,@sdate,@cashier)", cn);
@@ -50,7 +50,7 @@ namespace Point_Of_Sales
                     cm.Parameters.AddWithValue("@price", price);
                     cm.Parameters.AddWithValue("@qty", int.Parse(qtytxtbox.Text));
                     cm.Parameters.AddWithValue("@sdate", DateTime.Now);
-                    cm.Parameters.AddWithValue("@cashier", cashier.lblusername);
+                    cm.Parameters.AddWithValue("@cashier", cashier.lblusername.Text);
                     cm.ExecuteNonQuery();
                     cn.Close();
                 cashier.LoadCart();

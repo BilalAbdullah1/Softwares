@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Casher));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnlogout = new System.Windows.Forms.Button();
             this.btnchangepw = new System.Windows.Forms.Button();
@@ -53,7 +53,7 @@
             this.lbltimer = new System.Windows.Forms.Label();
             this.labelvatable = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.labeltax = new System.Windows.Forms.Label();
+            this.labelvattxt = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.labeldiscount = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -348,7 +348,7 @@
             this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.labelvatable);
             this.panel3.Controls.Add(this.label14);
-            this.panel3.Controls.Add(this.labeltax);
+            this.panel3.Controls.Add(this.labelvattxt);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.labeldiscount);
             this.panel3.Controls.Add(this.label10);
@@ -411,16 +411,16 @@
             this.label14.TabIndex = 15;
             this.label14.Text = "Vatable";
             // 
-            // labeltax
+            // labelvattxt
             // 
-            this.labeltax.AutoSize = true;
-            this.labeltax.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltax.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labeltax.Location = new System.Drawing.Point(145, 365);
-            this.labeltax.Name = "labeltax";
-            this.labeltax.Size = new System.Drawing.Size(35, 18);
-            this.labeltax.TabIndex = 14;
-            this.labeltax.Text = "0.00";
+            this.labelvattxt.AutoSize = true;
+            this.labelvattxt.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelvattxt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelvattxt.Location = new System.Drawing.Point(145, 365);
+            this.labelvattxt.Name = "labelvattxt";
+            this.labelvattxt.Size = new System.Drawing.Size(35, 18);
+            this.labelvattxt.TabIndex = 14;
+            this.labelvattxt.Text = "0.00";
             // 
             // label12
             // 
@@ -429,9 +429,9 @@
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label12.Location = new System.Drawing.Point(6, 365);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 18);
+            this.label12.Size = new System.Drawing.Size(34, 18);
             this.label12.TabIndex = 13;
-            this.label12.Text = "Tax";
+            this.label12.Text = "VAT";
             // 
             // labeldiscount
             // 
@@ -574,19 +574,19 @@
             // 
             this.gvcash.AllowUserToAddRows = false;
             this.gvcash.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gvcash.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.gvcash.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.gvcash.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.gvcash.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gvcash.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gvcash.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(16)))), ((int)(((byte)(245)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gvcash.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gvcash.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvcash.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.No,
@@ -612,6 +612,7 @@
             this.gvcash.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gvcash.Size = new System.Drawing.Size(668, 575);
             this.gvcash.TabIndex = 6;
+            this.gvcash.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvcash_CellContentClick);
             // 
             // No
             // 
@@ -795,7 +796,7 @@
         public System.Windows.Forms.Label lbldate;
         public System.Windows.Forms.Label lbltransno;
         public System.Windows.Forms.Label labelvatable;
-        public System.Windows.Forms.Label labeltax;
+        public System.Windows.Forms.Label labelvattxt;
         public System.Windows.Forms.Label labeldiscount;
     }
 }
